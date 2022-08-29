@@ -3,27 +3,79 @@
 header {
 	background-color: #131313;
 	height: 83px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 
 }
+.headernav {
+	display: flex;
+	
+}
 
-h1, p, body {
+h1, p, body, ul {
 	margin: 0px;
 	padding: 0px;
-
 }
+
+ul {
+	list-style-type: none;
+}
+
+.headernav>li {
+	margin: 0px 23.5px 0px 23.5px;
+}
+a {
+	text-decoration: none;
+	
+}
+
+address {
+	font-style: normal;
+	text-decoration-line: underline;
+}
+
 h1 {
 	height: 10px;
 	width: 179.74468994140625px;
 	left: 92px;
 	top: 37px;
 	border-radius: nullpx;
-
 }
 
-.yellowtext {
+.yellow {
 	color: #E3B873;
+}
+.white {
+	color: #FFFFFF;
+}
+
+.text {
+	
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 11px;
 	line-height: 15px;
+}
 
+.button {
+	height: 37px;
+	width: 161px;
+	left: 1187.0001220703125px;
+	top: 24px;
+	border-radius: 2px;
+	background-color: #E3B873;
+}
+
+.section1 {
+	background: rgba(0, 0, 0, 0.7);
+	position: relative;
+	height: 707px;
+}
+
+.imgsection1 {
+	position: absolute;
+	z-index: -1;
+}
+.section1>p {
+	position: absolute;
 }
