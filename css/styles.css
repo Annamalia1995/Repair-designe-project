@@ -29,6 +29,9 @@ a {
 	text-decoration: none;
 	
 }
+a:hover {
+	color: #E3B873;
+}
 
 address {
 	font-style: normal;
