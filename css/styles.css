@@ -1,0 +1,29 @@
+
+
+header {
+	background-color: #131313;
+	height: 83px;
+
+}
+
+h1, p, body {
+	margin: 0px;
+	padding: 0px;
+
+}
+h1 {
+	height: 10px;
+	width: 179.74468994140625px;
+	left: 92px;
+	top: 37px;
+	border-radius: nullpx;
+
+}
+
+.yellowtext {
+	color: #E3B873;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+
+}
