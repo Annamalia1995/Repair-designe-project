@@ -1,5 +1,6 @@
 
 
+
 header {
 	background-color: #131313;
 	height: 83px;
@@ -13,7 +14,7 @@ header {
 	
 }
 
-h1, p, body, ul {
+h1, h2, p, body, ul {
 	margin: 0px;
 	padding: 0px;
 }
@@ -58,27 +59,81 @@ h1 {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 11px;
 	line-height: 15px;
+	text-align: center;
 }
 
 .button {
+	
+	border-radius: 2px;
+	font-style: italic;
+
+}
+.buttonnav {
+	background-color: #E3B873;
 	height: 37px;
 	width: 161px;
 	left: 1187.0001220703125px;
 	top: 24px;
-	border-radius: 2px;
-	background-color: #E3B873;
 }
+.button2 {
+	background-color: #E3B873;
+	Width: 207px;
+	Height: 51px;
+	Top: 448px;
+	Left: 134px;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+	border-color: #E3B873;
+}
+.button3 {
+	Width: 207px;
+	Height: 50px;
+	Top: 448px;
+	Left: 361px;
+	border: 1px solid #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.0);
+	box-sizing: border-box;
+
+}
+
 
 .section1 {
 	background: rgba(0, 0, 0, 0.7);
 	position: relative;
 	height: 707px;
+	overflow: hidden;
 }
 
 .imgsection1 {
 	position: absolute;
 	z-index: -1;
+	height: 707px;
+	
 }
-.section1>p {
+
+.absolute {
 	position: absolute;
+}
+
+.section1>h2 {
+	width: 676.11px;
+	height: 105px;
+	font-family: 'Yeseva One', cursive;
+	font-size: 40px;
+	line-height: 53.13px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 400;
+	margin: 194px 0px 0px 134px;
+}
+
+.section1>p {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 36px;
+	width: 512px;
+	height: 89px;
+	margin-top: 318px;
+	margin-left: 134px;
 }
