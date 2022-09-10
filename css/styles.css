@@ -9,12 +9,12 @@ header {
 	align-items: center;
 
 }
-.headernav {
+.nav {
 	display: flex;
 	
 }
 
-h1, h2, p, body, ul {
+h1, h2, h3, h4, p, body, ul, i {
 	margin: 0px;
 	padding: 0px;
 }
@@ -23,14 +23,18 @@ ul {
 	list-style-type: none;
 }
 
-.headernav>li {
+header li {
 	margin: 0px 23.5px 0px 23.5px;
 }
+
+
 a {
 	text-decoration: none;
-	
+
 }
-a:hover {
+
+
+header a:hover {
 	color: #E3B873;
 }
 
@@ -52,6 +56,16 @@ h1 {
 }
 .white {
 	color: #FFFFFF;
+}
+.yeseva {
+	font-family: 'Yeseva One', cursive;
+	font-style: normal;
+	font-weight: 400;
+
+}
+
+.nunito {
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 .text {
@@ -137,3 +151,148 @@ h1 {
 	margin-top: 318px;
 	margin-left: 134px;
 }
+
+.section2 {
+	background-color: #131313;
+	height: 1074px;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.container {
+
+	padding: 107px 10vw 416px;
+	display: grid;
+	grid-template-columns: 40% 60%;
+
+}
+
+.section2 h3 {
+	Width: 253px;
+	Height: 66px;
+}
+
+
+
+.slider {
+
+	display: grid;
+	grid-template-rows: 15% auto;
+}
+
+.menu_for_sliders li {
+	color: rgba(255, 255, 255, 0.3);
+	text-transform: uppercase;
+	white-space: nowrap;
+	max-width: 100%;
+	margin-right: 60px;
+	padding-bottom: 7px;
+	font-size: 14px;
+	line-height: 19.4px;
+	height: 16.32px;
+
+}
+
+
+.menu_for_sliders li:hover {
+	color: #E3B873;
+	border-bottom: 1px solid #E3B873;
+}
+
+
+.completed_projects {
+	
+	margin-right: 70px;
+	margin-top: 23%;
+}
+
+.completed_projects p {
+	font-size: 14px;
+	line-height: 27px;
+}
+.grid-boxes {
+	margin: 30px 0px;
+	height: 52px;
+	
+}
+
+.grid_wrap {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 30% 30%;
+	padding-top: 10px;
+	grid-gap: 2vw;
+}
+.grid_wrap h4 {
+	width: 66px;
+	height: 22px;
+	font-size: 18px;
+	line-height: 24.95px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+
+.slide {
+	
+	max-width: 100%;
+	max-height: 482px;
+}
+
+.slide img {
+	max-width: 100%;
+
+}
+
+.left {
+ 	position: relative;
+ }
+.stick {
+	position: absolute;
+	margin: 6px 0px 0px -7px;
+}
+
+.stick-2 {
+	position: absolute;
+	margin: 6px 0px 0px -35px;;
+}
+
+.space_between {
+	justify-content: space-between;
+}
+
+.controls {
+	box-sizing: border-box;
+	width: 210px;
+	margin-top: 6px;
+}
+
+#active {
+	margin-top: -6px;
+}
+
+.point {
+	height: 10px;
+	width: 10px;
+	border-radius: 30px;
+	background: rgba(255, 255, 255, 0.3);
+	margin: 9px;
+}
+
+.point:hover {
+	background-color: #FFFFFF;
+	transform: scale(1.2);
+}
+
+i:hover {
+	transform: scale(1.2);
+}
+
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+
+}
+
+
+
